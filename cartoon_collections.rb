@@ -6,7 +6,7 @@ def roll_call_dwarves(dwarf_names)
   end
   nil
 end
-puts roll_call_dwarves(["Doc", "Sneezy", "Dopey", "Smiley"])
+# puts roll_call_dwarves(["Doc", "Sneezy", "Dopey", "Smiley"])
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.collect do |planeteer_call| 
