@@ -8,7 +8,11 @@
 # end
 # puts roll_call_dwarves(["Doc", "Sneezy", "Dopey", "Smiley"])
 
-
+def roll_call_dwarves(dwarf_names)
+  dwarf_names.each_with_index do |dwarf_name, index|
+    puts "#{index + 1} #{dwarf_name}"
+  end
+end
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.collect do |planeteer_call| 
