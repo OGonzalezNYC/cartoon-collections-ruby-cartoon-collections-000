@@ -39,9 +39,9 @@ def words_with_b(array_of_words)
   end
 end 
 
-puts words_with_b(["sally", "bob"])
+#puts words_with_b(["sally", "bob"])
   
   # only those words in the array of words that contain the letter b 
   
   #select
-end
+#end
