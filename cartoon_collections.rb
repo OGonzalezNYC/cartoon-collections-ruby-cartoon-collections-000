@@ -41,3 +41,4 @@ puts words_with_b(["sally", "bob"])
   # only those words in the array of words that contain the letter b 
   
   #select
+end
