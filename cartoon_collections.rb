@@ -28,7 +28,7 @@ def find_the_cheese(foods)
   end 
 end
 
-puts find_the_cheese(["apple", "gouda"])
+# puts find_the_cheese(["apple", "gouda"])
 
 def words_with_b(array_of_words)
   array_of_words.select do |word|
