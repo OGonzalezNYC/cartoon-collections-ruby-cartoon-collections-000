@@ -1,11 +1,11 @@
-def roll_call_dwarves(dwarf_names)
-  dwarf_names.each_with_index do |dwarf_name, index| 
-    if index + 1 > dwarf_names.length/2 
-      puts "#{index + 1} #{dwarf_name}"
-    end
-  end
-  nil
-end
+# def roll_call_dwarves(dwarf_names)
+#  dwarf_names.each_with_index do |dwarf_name, index| 
+#    if index + 1 > dwarf_names.length/2 
+#      puts "#{index + 1} #{dwarf_name}"
+#    end
+#  end
+#  nil
+# end
 # puts roll_call_dwarves(["Doc", "Sneezy", "Dopey", "Smiley"])
 
 def summon_captain_planet(planeteer_calls)
